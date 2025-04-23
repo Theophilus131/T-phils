@@ -1,4 +1,4 @@
-//Create a new app!!! Redo our mystery game with loops but it should keep asking until the user guesses correctly. You should output congratulations and the number of //guesses
+ //Create a new app!!! Redo our mystery game with loops but it should keep asking until the user guesses correctly. You should output congratulations and the number of //guesses
 
 	import java.util.Scanner;
 	public class MysteryGame{

@@ -7,34 +7,38 @@ public static void main(String [] args){
         int number = input.nextInt();
  
  	int Largest = 0;
-        int Smallest = 0;
+        int Smallest = 2_000_000_0;
         int counter = 1;
 
    while(number != -1 ){
-	System.out.print("enter numbers and enter (-1) to stop: ");
    number = input.nextInt();
-  if (counter == 0) {
-	Largest = number;
-	Smallest = number;
-	}
-    if( number > Largest ){
-         Largest = number;
-	}
-     if(number < Smallest ){
-         Smallest = number;
-     }
-	counter++;
-	}
+
 	if(number == -1) {
-	System.out.print("you have exited the loop");
+	 break;
+		}
+
+	  if (counter == 0) {
+	    Largest = number;
+	    Smallest = number;
+		}
+
+	if( number > Largest ){
+         Largest = number;
+		}
+
+	if(number < Smallest ){
+         Smallest = number;
+    		 }
+	counter++;
+
 	}
-	else {
-         
 	System.out.println("largest number is " + Largest);
  	System.out.println("smallest number is " + Smallest);
-	}
 
 	 
+	
+	
+	
    }
 
 }
