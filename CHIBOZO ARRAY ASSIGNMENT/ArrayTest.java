@@ -15,7 +15,12 @@
 
  //System.out.println("Sum of Odd numbers in the array is :" + ArrayKata.sumOfOddNumbersIn(Integers));
 
- System.out.println("The largest and smallest numbers are: " + Arrays.toString(ArrayKata.maximumAndMinimumOf(Integers)));
+ //System.out.println("The largest and smallest numbers are: " + Arrays.toString(ArrayKata.maximumAndMinimumOf(Integers)));
+
+//System.out.println("The odd number are: " + ArrayKata.noOfOddNumbersIn(Integers));
+
+ System.out.println("Th even number are: " + ArrayKata.noOfEvenNumbersIn(Integers));
+
 
 }
 	}

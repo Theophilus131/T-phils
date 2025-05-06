@@ -87,4 +87,33 @@ public static int sumOfOddNumbersIn(int []ArrayOfIntegers){
 	return maxMin;
 
    }
+
+
+	public static int noOfOddNumbersIn(int [] ArrayOfIntegers){
+		int odd = 0;
+        for(int integer : ArrayOfIntegers){
+
+	if(integer % 2 == 1){
+	     odd++;
+		}
+		}
+         return (odd);
+
+}
+
+	public static int noOfEvenNumbersIn(int [] ArrayOfIntegers){
+		int even = 0;
+        for(int integer : ArrayOfIntegers){
+
+	if(integer % 2 == 0){
+	     even++;
+		}
+		}
+         return (even);
+
+
+}
+
+		
+
 }
