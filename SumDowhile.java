@@ -16,7 +16,7 @@ public static void main(String [] args){
    System.out.println("The sum is: " + sum);
    
  
-   System.out.print(" Do you wish to perform this tasks again or 	enter 0 to end the operation");
+   System.out.print(" Do you wish to perform this tasks again or enter 0 to end the operation: ");
    	terminate = input.nextInt();
  
 
