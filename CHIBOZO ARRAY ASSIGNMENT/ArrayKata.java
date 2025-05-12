@@ -111,8 +111,29 @@ public static int sumOfOddNumbersIn(int []ArrayOfIntegers){
 		}
          return (even);
 
-
 }
+
+	/*
+      	public static int [] evenNumbersIn(int [] ArrayOfIntegers){		
+
+		int evenCount = 0;
+		
+	 	int [] even = new int [1];
+		 int Integers [] = {28, 10 , 78, 65, 34, 13, 79, 90, 56, 84};
+		for(int i = 0; i <= Integers.length; i++){ 
+		if(Integers[i] % 2 == 0)
+		Integers[evenCount++] = Integers[i]
+
+	      		 }
+			}
+         return even;
+
+		}
+		
+			*/
+             
+
+   
 
 		
 
