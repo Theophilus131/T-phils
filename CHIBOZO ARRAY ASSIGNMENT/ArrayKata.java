@@ -131,10 +131,21 @@ public static int sumOfOddNumbersIn(int []ArrayOfIntegers){
 		}
 		
 			*/
-             
 
-   
 
-		
+ public static int [] squareNumbersIn(int [] ArrayOfIntegers){
+    int[] result = new int[ArrayOfIntegers.length];
+
+for(int i = 0; i < ArrayOfIntegers.length; i++){
+
+	 result[i] = ArrayOfIntegers[i] * ArrayOfIntegers[i];
+			}
+
+ 	 return result;
 
 }
+	
+             
+		
+
+	}
